@@ -5,7 +5,7 @@ import com.alipay.easysdk.kernel.Config;
 import com.alipay.easysdk.kernel.util.ResponseChecker;
 import com.alipay.easysdk.payment.page.models.AlipayTradePagePayResponse;
 
-public class MainTest {
+public class AliPayTest {
     public static void main(String[] args) throws Exception {
         // 1. 设置参数（全局只需设置一次）
         Factory.setOptions(getOptions());
